@@ -31,7 +31,7 @@ export default function WhatsAppPage() {
         <div className="card text-center mb-8 py-10">
           <h2 className="font-serif text-2xl md:text-3xl text-savanna-charcoal mb-2">Ready to chat?</h2>
           <p className="text-savanna-muted font-sans text-sm mb-2">Our WhatsApp business number</p>
-          <p className="font-sans font-bold text-savanna-bark text-2xl tracking-wide mb-6">+27 (0) 10 123 4567</p>
+          <p className="font-sans font-bold text-savanna-bark text-2xl tracking-wide mb-6">+447916628641</p>
           <a
             href={WHATSAPP_URL}
             target="_blank"
