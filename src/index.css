@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-savanna-off-white text-savanna-charcoal font-sans;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-savanna-earth text-savanna-cream font-sans font-medium px-6 py-3 rounded-xl
+           hover:bg-savanna-earth-dark transition-all duration-200 shadow-soft
+           hover:shadow-medium hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply border border-savanna-earth text-savanna-earth font-sans font-medium px-6 py-3 rounded-xl
+           hover:bg-savanna-cream transition-all duration-200;
+  }
+
+  .btn-sage {
+    @apply bg-savanna-sage text-white font-sans font-medium px-6 py-3 rounded-xl
+           hover:bg-savanna-sage-dark transition-all duration-200 shadow-soft
+           hover:shadow-medium hover:-translate-y-0.5;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-soft border border-savanna-cream-dark/30 p-6;
+  }
+
+  .input-field {
+    @apply w-full border border-savanna-cream-dark rounded-xl px-4 py-3 text-savanna-charcoal
+           bg-savanna-off-white placeholder-savanna-muted focus:outline-none
+           focus:border-savanna-earth focus:ring-2 focus:ring-savanna-earth/20 transition-all duration-200;
+  }
+
+  .select-field {
+    @apply w-full border border-savanna-cream-dark rounded-xl px-4 py-3 text-savanna-charcoal
+           bg-savanna-off-white focus:outline-none focus:border-savanna-earth
+           focus:ring-2 focus:ring-savanna-earth/20 transition-all duration-200 appearance-none;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EFE6;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4A07C;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B6B4A;
+}
+
+/* Chat bubble animations */
+.chat-bubble-enter {
+  animation: fadeIn 0.3s ease-out, slideUp 0.3s ease-out;
+}
+
+.typing-dot {
+  animation: pulseSoft 1.4s ease-in-out infinite;
+}
+.typing-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.typing-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
