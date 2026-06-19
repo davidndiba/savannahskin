@@ -1,6 +1,6 @@
 import { ExternalLink, Clock, MessageSquare, Shield, Smartphone, CheckCircle } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '27101234567';
+const WHATSAPP_NUMBER = '447916628641';
 const PRE_FILLED_MSG = encodeURIComponent('Hi Savanna Skin, I need help with...');
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${PRE_FILLED_MSG}`;
 
