@@ -45,7 +45,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Mail size={15} className="mt-0.5 flex-shrink-0 text-savanna-sand" />
-                <span>support@savannaskin.com</span>
+                <span>Savannaskinsupportteam@gmail.com</span>
               </li>
               <li className="mt-4 text-savanna-cream/40 text-xs leading-relaxed">
                 Mon – Fri: 8:00 AM – 6:00 PM SAST<br />

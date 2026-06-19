@@ -63,7 +63,7 @@ export default function EmailPage() {
             </div>
             <div className="flex justify-between text-sm font-sans">
               <span className="text-savanna-muted">Sent to</span>
-              <span className="font-medium text-savanna-bark">support@savannaskin.com</span>
+              <span className="font-medium text-savanna-bark">Savannaskinsupportteam@gmail.com</span>
             </div>
             <div className="flex justify-between text-sm font-sans">
               <span className="text-savanna-muted">Response to</span>
@@ -197,8 +197,8 @@ export default function EmailPage() {
               <Mail className="text-savanna-olive mb-3" size={20} />
               <h4 className="font-serif text-lg text-savanna-charcoal mb-1">Direct Email</h4>
               <p className="text-savanna-muted text-xs font-sans mb-3">Prefer to email directly?</p>
-              <a href="mailto:support@savannaskin.com" className="text-savanna-earth font-sans text-sm font-medium hover:underline">
-                support@savannaskin.com
+              <a href="mailto:Savannaskinsupportteam@gmail.com" className="text-savanna-earth font-sans text-sm font-medium hover:underline">
+                Savannaskinsupportteam@gmail.com
               </a>
             </div>
 
