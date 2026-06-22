@@ -8,8 +8,7 @@ import WhatsAppPage from './pages/WhatsAppPage';
 import CallPage from './pages/CallPage';
 import EmailPage from './pages/EmailPage';
 import BookingPage from './pages/BookingPage';
-// import { Analytics } from "@vercel/analytics/next"
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from '@vercel/analytics/react';
 
 
 
